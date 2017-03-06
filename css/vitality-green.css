@@ -7,6 +7,12 @@ html,
 body {
   height: 100%;
 }
+body,
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
 .img-centered {
   margin: 0 auto;
 }
@@ -1187,3 +1193,42 @@ body.vintage .about-carousel .owl-controls .owl-next,
 body.vintage .testimonials .owl-controls .owl-next {
   line-height: 55px !important;
 }
+
+
+.list-inline.social .fa {
+  font-size: 9rem;
+}
+
+img.main-logo {
+  width: 100px;
+  height: auto !important;
+  border-radius: 1000px;
+}
+@media screen and (max-width:768px) {
+  img.main-logo {
+    width: 60px;
+  }
+}
+
+.navbar-fixed-top.navbar-expanded .img-border {
+  border: none;
+  background: transparent;
+}
+.navbar-fixed-top .img-border {
+  /* text-shadow: 0px 0px 10px #222; */
+  background: #222;
+  border: 5px solid #222;
+}
+
+.intro-content img {
+  max-height: 100%;
+  height: auto;
+  width: 100%;
+}
+
+
+
+
+
+
+
