@@ -6,12 +6,17 @@
 html,
 body {
   height: 100%;
+
+}
+html {
+  overflow-x: hidden;
 }
 body,
 *,
 *:after,
 *:before {
     box-sizing: border-box;
+
 }
 .img-centered {
   margin: 0 auto;
@@ -1256,6 +1261,17 @@ img.main-logo {
 
 
 
-
+.contactForm {
+  border: 1px solid #888;
+  /* outline: 2px solid #555; */
+  margin: 0 auto;
+  padding:5%;
+  width: 95%;
+  max-width: 500px;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  border-radius: 3px;
+}
 
 
