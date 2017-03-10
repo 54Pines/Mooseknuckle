@@ -18,7 +18,7 @@ $message = $_POST['message'];
 // create email body and send it	
 $to = 'kelmanning25@gmail.com'; // *REPLACE WITH THE EMAIL ADDRESS YOU WANT THE FORM TO SEND MAIL TO*
 $email_subject = "Website Contact Form:  $name";
-$email_body = "You have received a new message from the Moosknuckle Pub contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
+$email_body = "You have received a new message from the Mooseknuckle Pub contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
 $headers = "From: contact@mooseknuckleaustin.com\n"; // *REPLACE WITH THE EMAIL ADDRESS YOU WANT THE MESSAGE TO BE FROM*
 $headers .= "Reply-To: $email_address";	
 mail($to,$email_subject,$email_body,$headers);
