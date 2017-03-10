@@ -1313,7 +1313,9 @@ img.main-logo {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
+.hours{
+  list-style: none;
+}
 
 
 
