@@ -1316,6 +1316,9 @@ img.main-logo {
 .hours{
   list-style: none;
 }
+.student{
+  max-width: 90px;
+}
 
 
 
